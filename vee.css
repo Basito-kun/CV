@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  
+}
+
+.wrapper {
+  border: solid 0px black;
+  background-color: rgb(228, 228, 228);
+  margin: 3em 25em;
+  padding: 6em 6em;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+}
+
+/* span {
+  float: right;
+} */
+
+header {
+  margin-bottom: 2.5em;
+  background-color: rgb(166, 166, 248);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+}
+
+h2+p {
+  border-top: black 1px solid;
+  font-size: large;
+}
+
+h3 {
+  letter-spacing: 2px;
+  border-bottom: black 1px solid;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+}
+
+div + h4 {
+  text-align: left;
+  width: 200px;
+  float: left;
+  clear: left;
+  padding-right: 50px;
+}
+
+div {
+  margin-bottom: 2em;
+}
+
+h4 + span {
+  text-align: left;
+  width: 450px;
+  /* float: right; */
+}
+
+h4 + p {
+  font-weight: bold;
+  color: grey;
+}
+
+br + p {
+  font-weight: bold;
+  color: grey;
+}
+
+div > h4 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+h4 + ul {
+  margin-left: 50px;
+  letter-spacing: 1px;
+}
+
+.work {
+  text-align: left;
+  width: 200px;
+  float: left;
+  clear: left;
+  padding-right: 50px; 
+}
+
+.exp {
+  text-align: left;
+  width: 450px;
+}
